@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lato');
+body {
+  background-color: #16a085;
+  font-family: Lato, sans-serif;
+}
+
+label {
+  color: #fff !important;
+}
+
+#title-app,
+.result-panel>.header {
+  font-family: 'Indie Flower', cursive !important;
+}
+
+#title-app {
+  margin: 2rem 0;
+  color: #fff;
+}
+
+#panels {
+  padding: 3rem;
+}
+
+.card {
+  height: 281px;
+  overflow: auto;
+}

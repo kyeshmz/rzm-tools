@@ -1,0 +1,36 @@
+html 
+<main class="ui container">
+ <h1 id="title-app" class="ui header center aligned">Markdown List-Link generator</h1>
+  <div id="panels" class="ui two column very relaxed grid">
+    <div id="form-list" class="ui form column">
+       <div class="ui error message">
+    <div class="header">Error</div>
+    <p>Please, fill the text fields</p>
+  </div>
+      <div class="field">
+        <label for="titulo">Link Title</label>
+        <input tabindex="1" placeholder='My link' id="title" type="text"/></div>
+
+      <div class="field">
+        <label for="link">URL</label>
+        <input tabindex="2" placeholder="http://..." id="url" type="text" />
+      </div>
+
+      <button tabindex="3" id="insert" class="ui secondary button">Gravar</button>
+    </div>
+    <div class="ui raised card">
+  <div class="content result-panel">
+    <div class="header">Result</div>
+    <div class="description">
+
+    </div>
+  </div>
+  <div class="extra content">
+    <div class="right floated author">
+      <button id="btn-clean" class="ui button basic negative">Clean</button>
+    </div>
+  </div>
+</div>
+  </div>
+
+</main>
